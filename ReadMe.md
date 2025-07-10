@@ -116,3 +116,6 @@ This 8-session journey introduces the basics of programming through JavaScript, 
 This course is maintained by [Your Name(s)].
 
 Pull requests welcome. Let's help kids love code!
+
+This is the link for chatApp
+(https://chatgpt.com/c/68702c06-d4a4-800f-9b5f-c94bc1d7e7cb)
