@@ -1,4 +1,4 @@
-# Javascript Operators
+# Javascript Operators Exercise 1
 
 Question 1: Find out the answers for these by displaying it on the console. You will need to
 compare the value on the left of the operator with the value on the right. Please note that
@@ -86,7 +86,7 @@ try to solve it in your brain before you see the result on the console.
 8. What is the output of (7 % 3)?
 9. What is the output of (2+true)?
 
-# Questions on functions
+# Questions on functions Exercise 2
 
 Question 1
 ● Define a simple function named myFirst that prints the word "Hello" on the console
