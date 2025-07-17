@@ -1,0 +1,78 @@
+Functions and conditional statements
+==================================
+
+What are functions? Why do we need them?
+    • What are functions/methods?
+▪ Functions/methods:
+  • Both are basically the same and mean a set of instructions or procedures
+    we design and group together to perform a specific task. You can describe
+    functions as words (specifically verbs) are for the English or any human
+    language. Writing a function means we are defining some code/procedures
+    that we can use later in our program whenever we want to
+
+Why do we need functions?
+========================
+  ▪ Like stated above, we write functions (set of instructions) to perform a specific
+  task and use that instruction whenever we want that task to be done in future.
+  Therefore, functions are very important to avoid writing the same set of
+  instructions again and again, every time we want the same kind of task to be done.
+  ▪ To allow us use one function over and over, we give our function a name. The next
+  time we want to perform the same kind of task, we just call the name of the function 
+  and use it. Please note that functions need inputs to successfully perform their task.
+  The inputs we give to our functions are called "Argument".
+  ▪ We can see reusing of specific instructions in human language too. For instance,
+  in English, if one says “paint”, the instruction is not specific enough because,
+  • Some might paint a wall, some might paint on a canvas, some might paint
+  with color red, some might paint with yellow
+  • But if one says, “paint the wall blue”,
+  o The word “paint” is the function/instruction/ the instruction one
+  needs to perform
+  o Wall and blue are the arguments, inputs to the function Paint
+  o We can use the instruction “paint” over and over by changing
+  “blue” and “wall” values
+
+How do we declare/define a function in JS?
+    • What does declaring/defining a function mean?
+     ==============================================
+
+    ▪ Definition: Declaring a function is simply writing all the code/instruction for your function. At that point the function just sits there doing nothing. When you declare
+        a function, you are basically telling the JS compiler about the name of your
+        function, what the function returns, and the parameters named in the function.
+
+    • How do we declare a function?
+    ▪ Declaring a function uses the keyword "function", just like we used the keyword
+    "var" to declare a variable. Then we need to provide the name of the function. The
+    name can be whatever you choose it to be.
+
+    ▪ We cannot have two functions with the same name. Then we tell if the function
+    needs an argument to perform its task.
+
+    ▪ Example, a function that does addition, needs the numbers to be added. If it does,
+    we provide "parameters" within brackets to the function. Parameters are just
+    variables/names that we use when we declare a function, just to say our function
+    needs arguments to perform its task. If a function doesn't provide parameters, we
+    just leave the brackets empty. Then we put all the instruction we want the function
+    to do with inside curly braces. 
+
+    Function declaration vs function expression: There are two ways of defining/declaring
+    a function, we can either use a function declaration or a function expression.
+
+    ▪ Function declaration: Syntax for defining function with declaration
+
+    function myFirstFunction (number1, number 2) {
+    return number1 + number2;
+    }
+
+    • Note: Declared functions are not executed immediately. They are "saved
+    for later use", and will be executed later, when they are invoked (called
+    upon).
+
+    • Call/invoking a function in JavaScript using the call() method
+    • The code inside a function is not executed when the function is
+    defined. The code inside any JavaScript function will execute only
+    when "something" invokes/calling the function it.
+    • It is common to use the term "call a function", "invoke a function",
+    "start a function, "start a function, all to mean execute the function.
+    • See below how we can call/invoke the above example function:
+    • myFunctionName(11, 10); // returns 21 because
+    of 11 + 10
